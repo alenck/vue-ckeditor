@@ -57,7 +57,7 @@
         }
       })
 		},
-		destroyed () {
+		beforeDestroyed () {
       const ckeditorId = this.id
 
       if (CKEDITOR.instances[ckeditorId]) {
